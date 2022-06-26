@@ -1,0 +1,51 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  #external-events {
+    position: absolute;
+    z-index: 2;
+  
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    background-color: #2C3E50;
+    margin-top: 50px;
+  }
+  
+  #external-events .fc-event {
+    margin: 1em 0;
+    cursor: move;
+    padding: 2px 2px;
+  }
+
+
+
+
+
+body{
+    margin: 20px 20px;
+}
+
+.fc-event{
+    background-color: #76828E;  
+      
+}
+
+.eventTitle1{
+    background-color: #76828E;
+}
+
+.eventTitle2{
+    background-color: silver;
+}
+
+
+.calendar{
+    padding: 5px 5px;   
+    border-color: silver;
+}
+
+.header{
+    font-size: xx-large;
+}
